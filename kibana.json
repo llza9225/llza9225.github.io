@@ -1,0 +1,47 @@
+{
+  "fields": [
+    {
+      "value": [
+        "exception"
+      ],
+      "key": [
+        "event"
+      ]
+    },
+    {
+      "value": [
+        "ZeroDivisionError"
+      ],
+      "key": [
+        "exception.type"
+      ]
+    },
+    {
+      "value": [
+        "division by zero"
+      ],
+      "key": [
+        "exception.message"
+      ]
+    },
+    {
+      "value": [
+        "Traceback (most recent call last):\n  File \"/app/resources/achievements/achievements.py\", line 64, in achievements_get\n    division_by_zero = 1 / 0\n                       ~~^~~\nZeroDivisionError: division by zero\n"
+      ],
+      "key": [
+        "exception.stacktrace"
+      ]
+    },
+    {
+      "value": [
+        "False"
+      ],
+      "key": [
+        "exception.escaped"
+      ]
+    }
+  ],
+  "timestamp": [
+    1769931059934510
+  ]
+}
